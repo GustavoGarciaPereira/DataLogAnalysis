@@ -36,7 +36,7 @@ bashCopy code
     
     Primeiro, clone o repositório para sua máquina local usando:
     ```bash
-    git clone [URL do repositório]
+    git clone git@github.com:GustavoGarciaPereira/DataLogAnalysis.git
     ```
     
 2.  **Carregando e Analisando os Dados**
@@ -48,7 +48,8 @@ bashCopy code
     from data_analysis import DataAnalysis
     
     # Substitua 'seu_arquivo.csv' pelo caminho do seu arquivo de dados
-    analysis = DataAnalysis('seu_arquivo.csv')```
+    analysis = DataAnalysis('seu_arquivo.csv')
+    ```
     
     
 3.  **Executando Análises**
@@ -62,4 +63,5 @@ bashCopy code
     analysis.plot_data_log()
     analysis.linear_regression()
     analysis.linear_regression_no_intercept()
-    ```# DataLogAnalysis
+    # DataLogAnalysis
+    ```
