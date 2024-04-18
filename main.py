@@ -75,7 +75,7 @@ class DataAnalysis:
         print("Coeficiente de determinação (R^2):", r_squared)
 
 # Uso da classe
-analysis = DataAnalysis('julgamentos.csv')
+analysis = DataAnalysis('dados_csv/julgamentos.csv')
 analysis.transform_data('Frequencia(Hz)', 'Julgamento_som')
 analysis.plot_data()
 analysis.plot_data_log()
